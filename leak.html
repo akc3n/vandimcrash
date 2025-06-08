@@ -61,7 +61,7 @@
 
   const UI_UPDATE_EVERY = 10;   // DOM writes every N iterations
   const BURST_SIZE      = 32;   // refs leaked per micro-task
-  const BREATH_INTERVAL = 500; // insert setTimeout every N iterations
+  const BREATH_INTERVAL = 1000; // insert setTimeout every N iterations
 
   let counter = 0, audioElementCount = 0, running = false;
   const $ = id => document.getElementById(id);
